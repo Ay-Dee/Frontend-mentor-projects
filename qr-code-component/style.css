@@ -1,7 +1,14 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(font/Outfit/Outfit-VariableFont_wght.ttf) format('truetype-variations');
+    font-weight: 100 900;
+}
+
 body{
     margin: 0;
     padding: 0;
     background-color: #D5E1EF;
+    font-family: 'Outfit', sans-serif;
 }
 
 .main{
@@ -14,18 +21,31 @@ body{
 
 .content{
     background-color: #FFFFFF;
-    max-height: 499px;
+    height: fit-content;
     max-width: 320px;
     padding: 16px;
     margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content .text{
+    padding: 0 16px;
 }
 
 .content .text h1{
     color: #1F314F;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
 }
 
 .content .text p{
     color: #68778D;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    line-height: 140%;
 }
 
 .content.image{
@@ -34,4 +54,19 @@ body{
 
 .content .image img{
     width: 100%;
+}
+
+.attribution{
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.attribution p{
+    color: white;
+}
+
+.attribution a{
+    text-decoration: wavy;
+    color: white;
 }
