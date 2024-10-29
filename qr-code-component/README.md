@@ -19,17 +19,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./design/Challenge_#1.jpg)
+![](./design/Challenge-1.jpeg)
 
 ### Links
 
-<<<<<<< HEAD
-- Solution URL: [Add solution URL here](https://.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qr-code-component-using-htmlcss-olXjzO3Jzq)
 - Live Site URL: [Frontend Mentor | QR code component](https://aydee-qrcodecomponent.com)
-=======
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
->>>>>>> 13375f6bcf0854bcc5e38f48efcffd5514a001bc
 
 ### Built with
 
