@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Figtree";
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+  font-weight: 100 900;
+}
+:root {
+  --yellow: #F4D04E;
+  --gray-950: #111111;
+  --gray-500: #6B6B6B;
+  --white: #FFFFFF;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Figtree", sans-serif;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  height: 100vh;
+}
+main .card {
+  padding: 24px;
+  width: 345px;
+  border: 1px solid var(--gray-950);
+  border-radius: 20px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  box-shadow: 8px 8px var(--gray-950);
+}
+main .card .image {
+  border-radius: 10px;
+}
+main .card .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+main .card .content .category {
+  background-color: var(--yellow);
+  color: var(--gray-950);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+main .card .content .category p {
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 800;
+  margin: 0;
+}
+main .card .content p.date {
+  margin: 12px 0;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 500;
+}
+main .card .content h1 {
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 800;
+}
+main .card .content h1:hover {
+  cursor: pointer;
+  color: var(--yellow);
+}
+main .card .content p.description {
+  color: var(--gray-500);
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+}
+main .card .author {
+  display: flex;
+  gap: 12px;
+}
+main .card .author span {
+  align-self: center;
+  justify-self: center;
+}
+
+@media (max-width: 599px) {
+  main {
+    height: 120dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .card {
+    width: 280px;
+  }
+  main .card .category p, main .card p.date {
+    font-size: 12px;
+  }
+  main .card h1 {
+    font-size: 20px;
+  }
+  main .card p.description {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
