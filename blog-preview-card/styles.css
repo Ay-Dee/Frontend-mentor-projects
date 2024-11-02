@@ -82,6 +82,9 @@ main .card .author {
   gap: 12px;
 }
 main .card .author span {
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 800;
   align-self: center;
   justify-self: center;
 }

@@ -108,6 +108,7 @@ main{
             gap: 12px;
 
             span{
+                @include text-preset-3-bold();
                 align-self: center;
                 justify-self: center;
             }
