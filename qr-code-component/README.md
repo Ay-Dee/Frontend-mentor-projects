@@ -54,7 +54,7 @@ To be honest CSS is not my strong suit currently but, i can't wait to try out mo
 ## Author
 
 - Website - [Still working on it]()
-- Frontend Mentor - [@Ay-Dee](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Ay-Dee](https://www.frontendmentor.io/profile/Ay-Dee)
 - Twitter - [@lazycodegenius](https://www.twitter.com/lazycodegenius)
 
 ## Acknowledgments
