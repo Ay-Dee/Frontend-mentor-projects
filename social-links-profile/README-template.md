@@ -8,13 +8,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://aydee-sociallinksprofile.vercel.app)
+- [Solution URL](https://www.frontendmentor.io/solutions/social-links-profile-page-om2UGvCrMZ)
+- [Live Site URL](https://aydee-sociallinksprofile.vercel.app)
 
 ### Built with
 
