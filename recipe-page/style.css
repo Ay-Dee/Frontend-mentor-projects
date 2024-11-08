@@ -39,9 +39,9 @@ body{
 }
 
 main{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .recipe{
@@ -133,7 +133,7 @@ hr{
     font-size: 14px;
     padding: 15px;
     border-radius: 10px;
-    margin: 10px 0;
+    margin: 10px auto;
     color: var(--stone-900);
     font-family: 'Outfit', sans-serif;
 }
@@ -142,4 +142,33 @@ hr{
     text-decoration: none;
     color: var(--brown-800);
     font-weight: bold;
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .recipe{
+        width: 500px;
+    }
+}
+
+@media (max-width: 599px) {
+    .recipe{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .recipe .meal-desc{
+        padding: 30px;
+    }
+    .attribution{
+        display: hidden;
+    }
+    .nutrition .nut{
+        justify-content: space-between;
+    }
+    .nutrition .nut p{
+        margin: 10px 20px 10px 30px;
+    }
+    .nutrition .nut span{
+        width: 56px;
+    }
 }
