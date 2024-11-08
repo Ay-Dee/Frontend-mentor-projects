@@ -1,0 +1,145 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+
+    --brown-800: hsl(14, 45%, 36%);
+
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: 100 900;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--stone-100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe{
+    background-color: white;
+    width: 700px;
+    padding: 40px;
+    height: fit-content;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.meal img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.time{
+    padding: 25px;
+    background-color: var(--rose-50);
+}
+
+.time h3{
+    margin-top: 0;
+}
+
+ul li:not(:last-child){
+    margin-bottom: 15px;
+}
+
+ol li{
+    margin-bottom: 15px;
+}
+
+ul, ol{
+    padding-inline-start: 25px;
+}
+
+li{
+    padding-left: 1.5rem;
+}
+
+h1{
+    color: var(--stone-900);
+}
+
+h2, .nutrition span, li::marker{
+    color: var(--brown-800);
+}
+
+h2, h1{
+    font-family: 'Young Serif', sans-serif;
+}
+
+h3{
+    font-family: 'Outfit', sans-serif;
+    color: var(--rose-800);
+}
+
+p, li{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: var(--stone-600);
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: var(--stone-150);
+    margin: 10px 0;
+}
+
+.nutrition .nut{
+    display: flex;
+    align-items: center;
+}
+
+.nutrition .nut p{
+    width: 70px;
+    margin: 10px 237px 10px 30px;
+}
+
+.nutrition .nut span{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+.attribution{
+    background-color: var(--white);
+    font-size: 14px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    color: var(--stone-900);
+    font-family: 'Outfit', sans-serif;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: var(--brown-800);
+    font-weight: bold;
+}
